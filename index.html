@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Chat app CSS illustration</title>
   <link rel="stylesheet" href="styles.css" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
   <!-- App Section -->
@@ -14,11 +15,13 @@
 
       <!-- banner section -->
        <div class="app__banner">
+        <i class='bx bx-chevron-left'></i>
         <img src="./images/avatar.jpg" alt="app logo" class="app__logo">
         <div class="app__heading">
           <p class="app__title">Samuel Green</p>
           <p class="app__subtitle">Available to Walk</p>
         </div>
+        <i class='bx bx-dots-vertical-rounded'></i>
       </div>
 
       <!-- chat section -->
@@ -34,15 +37,20 @@
       <div class="chat__box right__chat">Can you make it?</div>
       <div class="chat__box left__chat">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
       <div class="chat__box walk__duration">
+        <div class="walk__radio"></div>
         <p>30 minute walk</p>
         <p class="chat__price">$29</p>
       </div>
       <div class="chat__box walk__duration">
+        <div class="walk__radio"></div>
         <p>1 hour walk</p>
         <p class="chat__price">$49</p>
       </div>
       <div class="chat__box reply">
         Type a message…
+        <div class="submit__button">
+          <i class='bx bx-chevron-right'></i>
+        </div>
       </div>
     </div>
     </div>
@@ -59,6 +67,14 @@
         Coded by <a href="https://github.com/codewithmanas">Manas</a>.
       </div>
   </section>
-  
+
+  <!-- left back gradient -->
+  <div class="left__back__gradient"></div>
+
+  <!-- right back gradient -->
+  <div class="right__back__gradient"></div>
+
+  <!-- javascript -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 </html>
