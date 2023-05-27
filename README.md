@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://codesandbox.io/s/chat-app-css-illustration-intermediate-kcdbz4](https://codesandbox.io/s/chat-app-css-illustration-intermediate-kcdbz4)
-- Live Site URL: [https://kcdbz4.csb.app/](https://kcdbz4.csb.app/)
+- Solution URL: [https://github.com/codewithmanas/Chat-app-CSS-illustration-frontendmentor](https://github.com/codewithmanas/Chat-app-CSS-illustration-frontendmentor)
+- Live Site URL: [https://codewithmanas.github.io/Chat-app-CSS-illustration-frontendmentor/](https://codewithmanas.github.io/Chat-app-CSS-illustration-frontendmentor/)
 
 ## My process
 
